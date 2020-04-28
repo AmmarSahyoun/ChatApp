@@ -76,10 +76,14 @@ nav a:hover {
 
 footer {
 	display: flex;
-	justify-content: center;
-	background-color: #1f1f23;
+    justify-content: center;
+    background-color: #1f1f23;
 	height: 10%;
 	margin: 0;
+}
+.footer_text{
+    display: flex;
+    color: #611d51;
 }
 
 .button {
@@ -243,11 +247,13 @@ footer {
 }
 
 .create-new-channel {
+   /* display: flex; */
 	width: 70%;
 	background-color: #303036;
 	padding: 15px;
 }
 .createButton {
+   /* display: flex; */
 	border-radius: 4px;
 	background-color: gray;
 }
@@ -287,3 +293,16 @@ footer {
 .channel-name-div h4 {
     margin: 7px 0px;
 }
+.userCh{
+    display: flex;
+    color: #611d51;
+}
+
+.userLog{
+    display: flex;
+    color: #611d51;
+    }
+    .currentCH{
+        display: flex;
+        color: gray;
+    }
