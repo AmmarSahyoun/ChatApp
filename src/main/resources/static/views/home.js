@@ -10,7 +10,7 @@ export default {
         <div class="home-container">
             <div class="home">
                 <div>
-                    <h1>Welcome to chatapp!</h1>
+                   <h1>Welcome to chatapp!</h1>
                 </div>
                 <div class="submit-div">
                     <loginOrCreateDiv/>

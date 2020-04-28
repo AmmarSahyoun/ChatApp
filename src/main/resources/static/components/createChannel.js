@@ -38,7 +38,7 @@ export default {
 
 					this.name = "";
 
-					// Refresh the channel list
+					
 				} catch (e) {
 					console.log("can't post it ");
 					console.log(e);
