@@ -2,7 +2,7 @@ export default {
     template: `
         <form @submit.prevent="submitNewUser" class="home">
             <div class="sign-up-text">
-                <h2>Sign up</h2>
+                <h2 class = "sign">Sign up</h2>
                 <h3>{{h3Text}}</h3>
             </div>
             <div class="sign-up-form">
