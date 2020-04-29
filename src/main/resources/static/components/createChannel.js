@@ -1,15 +1,15 @@
 export default {
 	template: `
-      <div>
+	<div >
         <form @submit.prevent="createNewChannel" class="create-new-channel">
+			<div >
             <input v-model="title" type="text"
             required
-            placeholder = "Enter the channel title:">
-
-            <button class="createButton">Create</button>
-
+            placeholder = "Channel title:">
+            <button class="button2" >Create</button>
+			</div>
         </form>
-       </div>
+</div>
     `,
 
 	props: [],
