@@ -5,11 +5,11 @@ export default {
                 <h2 class="login-text">Login</h2>
             </div>
             <div>
-                <input class="normal-input" type="text" v-model="username" placeholder="Enter your username...">
-                <input class="normal-input input-with-margin" type="password" v-model="password" placeholder="Enter your password...">
+                <input class="normal-input" type="text" v-model="username" placeholder="Enter your username..." required>
+                <input class="normal-input input-with-margin" type="password" v-model="password" placeholder="Enter your password..." required>
             </div>
             <div>
-                <button class="button">Submit</button>
+                <button class="button">Login</button>
                 <button type="button" @click="createUser" class="button">Create new user</button>
             </div>
         </form>

@@ -1,7 +1,7 @@
 export default {
     template: `
         <footer>
-            <p>This project was made by: Ammar, Tonny and Victor!</p>
+            <p class="footer_text">This project was made by: Ammar and Tonny</p>
         </footer>
     `
 }

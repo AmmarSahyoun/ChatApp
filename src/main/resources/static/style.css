@@ -76,10 +76,14 @@ nav a:hover {
 
 footer {
 	display: flex;
-	justify-content: center;
-	background-color: #1f1f23;
+    justify-content: center;
+    background-color: #1f1f23;
 	height: 10%;
 	margin: 0;
+}
+.footer_text{
+    display: flex;
+    color: #880168;
 }
 
 .button {
@@ -127,7 +131,9 @@ footer {
 }
 
 .login-text {
-	padding-bottom: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    color: #880168;
 }
 
 .input-with-margin {
@@ -153,7 +159,7 @@ footer {
 }
 
 .channel-box-div {
-    width: 15%;
+    width: 20%;
     background-color: #212126;
     overflow-y: auto;
     overflow-x: hidden;
@@ -192,6 +198,9 @@ footer {
     background-color: #303036;
     margin-left: 1px;
     border-radius: 0px 10px 10px 0px;
+}
+.send-message-button:hover{
+    background-color: #38383f;
 }
 
 /* --------------
@@ -243,11 +252,12 @@ footer {
 }
 
 .create-new-channel {
-	width: 70%;
+    display: flex; 
 	background-color: #303036;
 	padding: 15px;
 }
 .createButton {
+    display: flex; 
 	border-radius: 4px;
 	background-color: gray;
 }
@@ -287,3 +297,33 @@ footer {
 .channel-name-div h4 {
     margin: 7px 0px;
 }
+.userCh{
+    display: flex;
+    color: #880168;
+}
+
+.userLog{
+    display: flex;
+    color: #880168;
+    }
+    .currentCH{
+        display: flex;
+        color: gray;
+    }
+    .sign{
+        display: flex;
+        color: #880168;
+
+    }
+    .button2 {
+        border: 1px solid rgb(104, 102, 102);
+        border-radius: 5px;
+        background: none;
+        margin: 10px 5px;
+        font-size: 1em;
+    }
+    
+    .button2:hover {
+        background-color: #59595f;
+    }
+    

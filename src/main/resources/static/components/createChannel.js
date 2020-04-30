@@ -1,15 +1,14 @@
 export default {
 	template: `
-      <div>
+	<div>
         <form @submit.prevent="createNewChannel" class="create-new-channel">
-            <input v-model="title" type="text"
-            required
-            placeholder = "Enter the channel title:">
-
-            <button class="createButton">Create</button>
-
+			<div >
+			  <input v-model="title" type="text" required placeholder = "channel title:" 
+			  style="padding-right: 30px;color:rgb(223, 219, 219); background-color: transparent; width: 98% ">
+              <button class="button2" >Create</button>
+			</div>
         </form>
-       </div>
+	</div>
     `,
 
 	props: [],
@@ -38,7 +37,7 @@ export default {
 
 					this.name = "";
 
-					// Refresh the channel list
+					
 				} catch (e) {
 					console.log("can't post it ");
 					console.log(e);
