@@ -83,7 +83,7 @@ footer {
 }
 .footer_text{
     display: flex;
-    color: #611d51;
+    color: #880168;
 }
 
 .button {
@@ -133,7 +133,7 @@ footer {
 .login-text {
     display: flex;
     padding-bottom: 20px;
-    color: #611d51;
+    color: #880168;
 }
 
 .input-with-margin {
@@ -257,7 +257,7 @@ footer {
 	padding: 15px;
 }
 .createButton {
-   /* display: flex; */
+    display: flex; 
 	border-radius: 4px;
 	background-color: gray;
 }
@@ -299,12 +299,12 @@ footer {
 }
 .userCh{
     display: flex;
-    color: #611d51;
+    color: #880168;
 }
 
 .userLog{
     display: flex;
-    color: #611d51;
+    color: #880168;
     }
     .currentCH{
         display: flex;
@@ -312,7 +312,7 @@ footer {
     }
     .sign{
         display: flex;
-        color: #611d51;
+        color: #880168;
 
     }
     .button2 {
