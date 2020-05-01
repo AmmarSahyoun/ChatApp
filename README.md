@@ -4,3 +4,5 @@ supervision: Johan Wirén.
 
 <a href="https://imgflip.com/embed/3z7n2o"></a>
  <a href="https://imgflip.com/embed/3z7n2o"> Gif Portfolio </a>
+
+<img src ="04.JPG" sidth="100">
