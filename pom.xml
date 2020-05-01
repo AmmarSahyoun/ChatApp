@@ -11,13 +11,13 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>chat_app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>jar</packaging>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 
 	<dependencies>
