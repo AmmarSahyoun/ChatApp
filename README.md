@@ -5,6 +5,6 @@ supervision: Johan Wirén.
 
  <a href="https://chatvi.herokuapp.com/"> ChatApp </a>
 
-<img src ="04.JPG" sidth="100">
+<img src ="04.jpg" width="100">
 
 
