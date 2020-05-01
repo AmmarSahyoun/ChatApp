@@ -1,6 +1,6 @@
 export default {
 	template: `
-		<div style="padding: 15px;">
+		<div style="width: 25%; padding: 5px;">
 		<h3>Other Channels:</h3>
 			<div v-for="(otherChannel, i) in otherChannels" :key="otherChannel.id" class="channel-name-div">
 				<h4>{{otherChannel.title}}</h4>

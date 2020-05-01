@@ -2,14 +2,14 @@ export default {
     template: `
         <div class="message-box-div">
             <div>
-              <h2 class="currentCH">Channel:  {{showChannelName}}</h2>
+              <h2 class="currentCH">Channel:  {{ showChannelName}}</h2>
             </div>
             <div v-for="message in showMessages" class="message-div" :hover="true">
                 <span class="inner-message-div">
                     <p class="message-name">{{message.senderName}}</p>
                     <p class="message-date">{{message.messageDate}}</p>
                     <button v-if="checkDeleteMessage(message.senderId)" @click="onClick(message.id)" class="delete-button">🗑️</button>
-                    <button v-if="checkIfAdmin()" @click="removeUser(message.senderId)" class="remove-user-button">Remove User</button>
+                    <button v-if="checkIfAdmin()" @click="removeUser(message.senderId)" class="remove-user-button">Remove</button>
                 </span>
                 <p class="message-p">{{message.message}}</p>
             </div>

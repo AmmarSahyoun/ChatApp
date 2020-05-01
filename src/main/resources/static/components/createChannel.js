@@ -1,10 +1,10 @@
 export default {
 	template: `
-	<div>
-        <form @submit.prevent="createNewChannel" class="create-new-channel">
-			<div >
+	<div  class="create-new-channel">
+        <form @submit.prevent="createNewChannel">
+			<div>
 			  <input v-model="title" type="text" required placeholder = "channel title:" 
-			  style="display: flex; color:rgb(223, 219, 219); background-color: transparent; width: 97% ">
+			  style="display: flex; color:rgb(223, 219, 219); background-color: transparent; width: 85% ">
               <button class="button2" >Create</button>
 			</div>
         </form>
@@ -34,7 +34,7 @@ export default {
 						},
 						body: JSON.stringify(newChannel)
 					});
-
+					
 					this.name = "";
 
 					
