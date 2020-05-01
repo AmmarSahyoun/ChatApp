@@ -2,7 +2,7 @@ export default {
     template: `
         <div>
             <a class="button" @click="onButtonClick">{{buttonTest}}</a>
-            <router-link v-if="!isCurrentUser" class="button" to="/signup">Create new account</router-link>
+            <router-link v-if="!isCurrentUser" class="button" to="/signup">Create new user</router-link>
         </div>
     `,
     computed: {

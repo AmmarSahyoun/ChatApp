@@ -5,8 +5,8 @@ export default {
         createChannel
     },
     template: `
-        <div class="channel-box-div">
-            <h2>Channels</h2>
+        <div class="channel-box-div" style="padding: 15px;">
+            <h3 class="userCh">{{this.$store.state.currentUser.username}} Channels</h3>
             <div v-for="(userChannel, i) in userChannels" :key="userChannel.id" class="channel-name-div">
                 <h3 @click="onClick(i)">{{userChannel.title}}</h3>
                 <button @click="onClickLeaveChannel(i)" class="delete-button">🗑️</button>

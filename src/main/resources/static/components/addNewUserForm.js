@@ -2,7 +2,7 @@ export default {
     template: `
         <form @submit.prevent="submitNewUser" class="home">
             <div class="sign-up-text">
-                <h2>Sign up</h2>
+                <h2 class = "sign">Sign up</h2>
                 <h3>{{h3Text}}</h3>
             </div>
             <div class="sign-up-form">
@@ -11,7 +11,7 @@ export default {
                 <input type="text" v-model="email" required placeholder="Enter your email...">
                 <input type="text" v-model="username" required placeholder="Enter your username...">
                 <input type="password" v-model="password" required placeholder="Enter your password...">
-                <button class="button">Submit</button>
+                <button class="button">Sign up</button>
             </div>
         </form>
     `,

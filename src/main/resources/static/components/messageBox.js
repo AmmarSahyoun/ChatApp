@@ -1,7 +1,9 @@
 export default {
     template: `
         <div class="message-box-div">
-            <h2>Channel: <span style="color: grey;">{{showChannelName}}</span></h2>
+            <div>
+              <h2 class="currentCH">Channel:  {{showChannelName}}</h2>
+            </div>
             <div v-for="message in showMessages" class="message-div" :hover="true">
                 <span class="inner-message-div">
                     <p class="message-name">{{message.senderName}}</p>
