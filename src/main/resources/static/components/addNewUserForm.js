@@ -22,7 +22,7 @@ export default {
             email: '',
             username: '',
             password: '',
-            h3Text: 'Please fill in this form to create an account'
+            h3Text: 'Please fill in this form!'
         }
     },
     methods: {
@@ -61,7 +61,7 @@ export default {
                 this.$store.commit('setCurrentUser', user)
                 this.$router.push('/')
             } catch {
-                this.h3Text = "Error. Please try another username!"
+                this.h3Text = "User name already used!. Please try another one!"
             }
 
             //this.$store.commit('setCurrentUser', result)
