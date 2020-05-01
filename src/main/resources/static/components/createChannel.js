@@ -4,7 +4,7 @@ export default {
         <form @submit.prevent="createNewChannel" class="create-new-channel">
 			<div >
 			  <input v-model="title" type="text" required placeholder = "channel title:" 
-			  style="padding-right: 30px;color:rgb(223, 219, 219); background-color: transparent; width: 98% ">
+			  style="display: flex; color:rgb(223, 219, 219); background-color: transparent; width: 97% ">
               <button class="button2" >Create</button>
 			</div>
         </form>
